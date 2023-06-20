@@ -1,0 +1,37 @@
+.sobre {
+  background-color: var(--color-azul-claro);
+  padding: 1.1rem;
+}
+
+.sobre__content {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sobre__title {
+  color: var(--color-black);
+  font-family: var(--raleway);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.sobre__text {
+  line-height: 19px;
+  font-size: 14px;
+  font-family: var(--raleway);
+  font-weight: 400;
+}
+
+.sobre__firma {
+  width: 100%;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+  .sobre {
+    padding-left: 4rem;
+  }
+}

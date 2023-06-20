@@ -3,95 +3,159 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="css/reset/normalize.css" />
+    <link rel="stylesheet" href="css/reset/bases.css" />
+    <link rel="stylesheet" href="./css/reset/reset.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/sobre.css" />
+    <link rel="stylesheet" href="./css/skills.css" />
+    <link rel="stylesheet" href="./css/hobbies.css" />
+    <link rel="stylesheet" href="./css/formacion-academica.css" />
+    <link rel="stylesheet" href="./css/experiencia-progesional.css" />
+    <link rel="stylesheet" href="./css/contacto.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+
     <title>Document</title>
   </head>
   <body>
-    <head class="head">
+    <head class="header">
       <nav class="nav">
         <div class="nav__logo">
-          <img src="assets/img/logo.svg" alt="logo" />
+          <img src="./assets/img/logo.svg" alt="logo" />
           <h1 class="nav__nombre">Fulana de Tal</h1>
         </div>
-        <ul>
-          <li class="nav__item">Sobre mi</li>
-          <li class="nav__item">Skills</li>
-          <li class="nav__item">Hobbies</li>
-          <li class="nav__item">Formacion</li>
-          <li class="nav__item">Protectos</li>
-          <li class="nav__item nav__item--responsive">contacto@fulana.com</li>
+        <ul class="nav__menu">
+          <li class="nav__item">
+            <a href="#" class="nav__link"> Sobre mi </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link"> Skills </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link"> Hobbies </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Formacion</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Protectos</a>
+          </li>
+          <li class="nav__item nav__item--responsive">
+            <a href="#" class="nav__link">contacto@fulana.com</a>
+          </li>
         </ul>
       </nav>
 
       <section class="home">
         <div class="home__content">
           <h2 class="home__title">
-            Hola mi nombre es Antony Rodriguez y construyo paginas web
+            Hola mi nombre es Fulana de Tal y construyo paginas web
           </h2>
           <p class="home__text">
-            Soy fomado en Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Sint doloribus id rem quasi officiis unde magni quis ea ullam
-            temporibus?
+            Soy formada en lorem ipsum sit amet consectetur y actualmente estoy
+            participando en el proyecto Oracle ONE en Alura Latam.
           </p>
           <ul class="home__links">
-            <li>Github</li>
-            <li>Linkedin</li>
-            <li>Instragram</li>
-            <li>Curriculo</li>
+            <li class="home__link">
+              <p>Github</p>
+              <img src="assets/img/home/arrow.svg" alt="arrow" />
+            </li>
+            <li class="home__link">
+              <p>Linkedin</p>
+              <img src="assets/img/home/arrow.svg" alt="arrow" />
+            </li>
+            <li class="home__link">
+              <p>Instragram</p>
+              <img src="assets/img/home/arrow.svg" alt="arrow" />
+            </li>
+            <li class="home__link">
+              <p>Curriculo</p>
+              <img src="assets/img/home/arrow.svg" alt="arrow" />
+            </li>
           </ul>
         </div>
-        <div>
-          <img src="assets/img/foto" alt="profile" />
+        <div class="home__img">
+          <img src="assets/img/profile.png" alt="profile" />
         </div>
       </section>
+    </head>
 
-      <section class="sobre">
+    <section class="sobre">
+      <div class="sobre__content">
         <h2 class="sobre__title">Sobre mi</h2>
         <p class="sobre__text">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis,
-          vero dolorum quidem pariatur nihil suscipit itaque perferendis nobis
-          facilis. Obcaecati nulla, ipsam dolore at dignissimos dolorem quaerat
-          rem odit nobis?
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          velit velit, volutpat semper dignissim dictum, imperdiet ut lacus.
+          Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper
+          sagittis ligula et lacinia.
         </p>
         <p class="sobre__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum
-          doloribus mollitia dicta vitae temporibus sed numquam, veniam
-          laboriosam consequatur non amet corrupti nihil. Dolores adipisci
-          tenetur, perspiciatis consequatur quaerat laborum sit est aut corporis
-          commodi saepe! Itaque, dicta illo!
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          velit velit, volutpat semper dignissim dictum, imperdiet ut lacus.
+          Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper
+          sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas
+          metus vitae, aliquet metus.
         </p>
         <div class="sobre__firma">
           <img src="assets/img/firma.svg" alt="firma" />
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="skills">
+    <section class="skills">
+      <h2 class="skills__title">Skills</h2>
+      <div class="skills__content">
         <div class="skills__card">
-          <div class="skills__card__icon"><i></i></div>
+          <div class="skills__card__icon">
+            <img src="assets/img/skills/htmli-icon.svg" alt="" />
+          </div>
           <h4 class="skills__card__title">Html 5</h4>
         </div>
         <div class="skills__card">
-          <div class="skills__card__icon"><i></i></div>
+          <div class="skills__card__icon">
+            <img src="assets/img/skills/javascript-icon.svg" alt="" />
+          </div>
           <h4 class="skills__card__title">Javascript</h4>
         </div>
         <div class="skills__card">
-          <div class="skills__card__icon"><i></i></div>
+          <div class="skills__card__icon">
+            <img src="assets/img/skills/php-icon.svg" alt="" />
+          </div>
           <h4 class="skills__card__title">PHP</h4>
         </div>
         <div class="skills__card">
-          <div class="skills__card__icon"><i></i></div>
+          <div class="skills__card__icon">
+            <img src="assets/img/skills/node-icon.svg" alt="" />
+          </div>
           <h4 class="skills__card__title">Node JS</h4>
         </div>
         <div class="skills__card">
-          <div class="skills__card__icon"><i></i></div>
+          <div class="skills__card__icon">
+            <img src="assets/img/skills/react-icon.svg" alt="" />
+          </div>
           <h4 class="skills__card__title">React</h4>
         </div>
         <div class="skills__card">
-          <div class="skills__card__icon"><i></i></div>
+          <div class="skills__card__icon">
+            <img src="assets/img/skills/css-icon.svg" alt="" />
+          </div>
           <h4 class="skills__card__title">CSS</h4>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="hobbies">
+    <section class="hobbies">
+      <h2 class="hobbies__title">Hobbies</h2>
+      <div class="hobbies__content">
         <div class="hobbies__card">
           <div class="hobbies__card__icon">
             <img src="assets/img/hobbies/patinaje.svg" alt="" />
@@ -128,43 +192,206 @@
           </div>
           <h4 class="hobbies__card__title">Tomar fotos</h4>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="formacion_academica">
-        <div>
-          <h2>Formacion academica</h2>
-        </div>
-        <div class="formacion_academica__cards">
-          <div class="formacion_academica__cards__card">
-            <div class="formacion_academica__img">
-              <img src="assets/img/formacion-academica/UFPR.svg" alt="" />
-            </div>
-            <div class="formacion_academica__cards__content">
-              <h5 class="formacion_academica__title">Analisis de datos</h5>
-              <p class="formacion_academica__text">2018-UFRP</p>
-            </div>
-          </div>
+    <section class="formacion_academica">
+      <div>
+        <h2 class="formacion_academica__title">Formacion academica</h2>
+      </div>
+      <div class="formacion_academica__cards">
+        <div class="formacion_academica__cards__card">
           <div class="formacion_academica__img">
             <img src="assets/img/formacion-academica/UFPR.svg" alt="" />
           </div>
           <div class="formacion_academica__cards__content">
-            <h5 class="formacion_academica__title">Formacion en UX Design</h5>
-            <p class="formacion_academica__text">2019-Alura</p>
+            <h5 class="formacion_academica__cards__title">Analisis de datos</h5>
+            <p class="formacion_academica__cards__text">2018 - UFRP</p>
           </div>
         </div>
-        <div class="formacion_academica__img">
-            <img src="assets/img/formacion-academica/UFPR.svg" alt="" />
+        <div class="formacion_academica__cards__card">
+          <div class="formacion_academica__img">
+            <img src="assets/img/formacion-academica/alura.svg" alt="" />
           </div>
           <div class="formacion_academica__cards__content">
-            <h5 class="formacion_academica__title">Posgrado de design</h5>
-            <p class="formacion_academica__text">En curso-UFRJ</p>
+            <h5 class="formacion_academica__cards__title">
+              Formacion en UX Design
+            </h5>
+            <p class="formacion_academica__cards__text">2019 - Alura</p>
           </div>
         </div>
+        <div class="formacion_academica__cards__card">
+          <div class="formacion_academica__img">
+            <img src="assets/img/formacion-academica/UFRJ.svg" alt="" />
+          </div>
+          <div class="formacion_academica__cards__content">
+            <h5 class="formacion_academica__cards__title">
+              Posgrado de design
+            </h5>
+            <p class="formacion_academica__cards__text">En curso - UFRJ</p>
+          </div>
         </div>
-      </section>
-      
-      <section class="experiencia_profesional">
-      </section>
-    </head>
+      </div>
+    </section>
+
+    <section class="experiencia_profesional">
+      <div>
+        <h2 class="experiencia_profesional__title">Experiencia profesional</h2>
+      </div>
+
+      <div class="experiencia_profesional__cards">
+        <div class="experiencia_profesional__cards__card">
+          <div class="experiencia_profesional__card__imagen">
+            <img
+              src="assets/img/experiencia-profesional/encriptador-1.png"
+              alt="encriptador-1"
+            />
+          </div>
+          <div class="experiencia_profesional__content">
+            <h4 class="experiencia_profesional__card__title">
+              Encriptador de texto
+            </h4>
+            <p class="experiencia_profesional__card__subtitle">
+              Challenge Oracle
+            </p>
+            <div class="experiencia_profesional__buttons">
+              <button class="experiencia_profesional__button">
+                Repositorio
+              </button>
+              <button
+                class="experiencia_profesional__button experiencia_profesional__button--azul"
+              >
+                Ver demo
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="experiencia_profesional__cards__card">
+          <div class="experiencia_profesional__card__imagen">
+            <img
+              src="assets/img/experiencia-profesional/ahorcado-1.png"
+              alt="ahorcado-1"
+            />
+          </div>
+          <div class="experiencia_profesional__content">
+            <h4 class="experiencia_profesional__card__title">
+              Juego creado con HTML y Javascript
+            </h4>
+            <p class="experiencia_profesional__card__subtitle">
+              Challenge Oracle
+            </p>
+            <div class="experiencia_profesional__buttons">
+              <button class="experiencia_profesional__button">
+                Repositorio
+              </button>
+              <button
+                class="experiencia_profesional__button experiencia_profesional__button--azul"
+              >
+                Ver demo
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="experiencia_profesional__cards__card">
+          <div class="experiencia_profesional__card__imagen">
+            <img
+              src="assets/img/experiencia-profesional/encriptador-2.png"
+              alt="encriptador-2"
+            />
+          </div>
+          <div class="experiencia_profesional__content">
+            <h4 class="experiencia_profesional__card__title">
+              Encriptador de texto
+            </h4>
+            <p class="experiencia_profesional__card__subtitle">
+              Challenge Oracle
+            </p>
+            <div class="experiencia_profesional__buttons">
+              <button class="experiencia_profesional__button">
+                Repositorio
+              </button>
+              <button
+                class="experiencia_profesional__button experiencia_profesional__button--azul"
+              >
+                Ver demo
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="experiencia_profesional__cards__card">
+          <div class="experiencia_profesional__card__imagen">
+            <img
+              src="assets/img/experiencia-profesional/ahorcado-2.png"
+              alt="ahorcado-2"
+            />
+          </div>
+          <div class="experiencia_profesional__content">
+            <h4 class="experiencia_profesional__card__title">
+              Juego creado con HTML, CSS y Javascript
+            </h4>
+            <p class="experiencia_profesional__card__subtitle">
+              Challenge Oracle
+            </p>
+            <div class="experiencia_profesional__buttons">
+              <button class="experiencia_profesional__button">
+                Repositorio
+              </button>
+              <button
+                class="experiencia_profesional__button experiencia_profesional__button--azul"
+              >
+                Ver demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacto">
+      <div class="contacto__img">
+        <img src="./assets/img/contacto/contact.png" alt="telefono" />
+      </div>
+      <div class="contacto__content">
+        <h2 class="contacto__title">Contacto</h2>
+        <p class="contacto__descripcion">
+          Quieres contactarme? <br />
+          Complete el siguiente formulario y me pondre en contacto con usted lo
+          antes posible.
+        </p>
+        <div class="contacto__form">
+          <div class="contacto__inputs">
+            <label for="name">Nombre</label>
+            <input id="name" type="text" />
+          </div>
+          <div class="contacto__inputs">
+            <label for="email">E - mail</label>
+            <input id="email" type="email" />
+          </div>
+
+          <div class="contacto__inputs">
+            <input id="asunto" type="text" placeholder="Asunto" />
+          </div>
+
+          <textarea
+            class="contacto__form__mensaje"
+            name="mensaje"
+            id="mensaje"
+            rows="5"
+            placeholder="Mensaje"
+          ></textarea>
+
+          <div class="">
+            <button class="contacto__form__button">Enviar mensaje</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer__content">Desarrollado por Fulana de tal 2022</p>
+    </footer>
   </body>
 </html>
