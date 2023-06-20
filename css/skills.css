@@ -3,9 +3,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem 1rem;
   gap: 1rem;
-  /* background-color: var(--color-azul-claro); */
 }
 
 .skills__title {
@@ -14,6 +13,7 @@
   font-family: var(--raleway);
   font-weight: 700;
   color: var(--color-black);
+  margin-bottom: 2rem;
 }
 
 .skills__content {
@@ -43,6 +43,7 @@
   font-family: var(--raleway);
   font-weight: 700;
   font-size: 1rem;
+  color: var(--color-black);
 }
 
 @media screen and (min-width: 768px) {
@@ -51,5 +52,24 @@
       auto-fit,
       minmax(min(100%, calc(236px - 1rem)), 1fr)
     );
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .skills__title {
+    font-size: 2rem;
+  }
+
+  .skills__card {
+    height: 160px;
+    gap: 1rem;
+  }
+
+  .skills__card__icon img {
+    width: 100%;
+  }
+
+  .skills__card__title {
+    font-size: 1.2rem;
   }
 }

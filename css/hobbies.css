@@ -3,9 +3,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem 1rem;
   gap: 1rem;
-  /* background-color: var(--color-azul-claro); */
 }
 
 .hobbies__title {
@@ -43,6 +42,7 @@
   font-family: var(--raleway);
   font-weight: 700;
   font-size: 1rem;
+  color: var(--color-black);
 }
 
 @media screen and (min-width: 768px) {
@@ -51,5 +51,24 @@
       auto-fit,
       minmax(min(100%, calc(236px - 1rem)), 1fr)
     );
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hobbies__title {
+    font-size: 2rem;
+  }
+
+  .hobbies__card {
+    height: 160px;
+    gap: 1rem;
+  }
+
+  .hobbies__card__icon img {
+    width: 100%;
+  }
+
+  .hobbies__card__title {
+    font-size: 1.2rem;
   }
 }
