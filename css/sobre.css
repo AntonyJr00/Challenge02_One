@@ -1,6 +1,6 @@
 .sobre {
   background-color: var(--color-azul-claro);
-  padding: 1.1rem;
+  padding: 2rem 1.1rem;
 }
 
 .sobre__content {
@@ -33,5 +33,11 @@
 @media screen and (min-width: 1024px) {
   .sobre {
     padding-left: 4rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .sobre {
+    padding: 2rem 9.5rem;
   }
 }

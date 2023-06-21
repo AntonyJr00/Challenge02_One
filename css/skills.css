@@ -56,12 +56,15 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .skills {
+    padding: 2rem 4rem;
+  }
   .skills__title {
     font-size: 2rem;
   }
 
   .skills__card {
-    height: 160px;
+    height: 120px;
     gap: 1rem;
   }
 
@@ -71,5 +74,18 @@
 
   .skills__card__title {
     font-size: 1.2rem;
+  }
+
+  .skills__content {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(min(100%, calc(146px - 1rem)), 1fr)
+    );
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .skills {
+    padding: 2rem 9.5rem;
   }
 }
