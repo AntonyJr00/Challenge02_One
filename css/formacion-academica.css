@@ -29,7 +29,7 @@
 .formacion_academica__img {
   display: grid;
   place-items: center;
-  height: 118px;
+  height: 150px;
   background-color: var(--color-blanco);
 }
 
