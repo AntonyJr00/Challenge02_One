@@ -28,6 +28,18 @@
   font-family: var(--raleway);
 }
 
+.social__email {
+  font-weight: 600;
+  font-family: var(--raleway);
+  color: var(--color-black);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.social__email:hover {
+  color: var(--color-azul-normal);
+}
+
 .contacto__form {
   display: flex;
   flex-direction: column;
@@ -52,7 +64,6 @@
   font-size: 1rem;
   font-family: var(--raleway);
   font-weight: 400;
-  /* color: rgb(42, 122, 228); */
   outline-color: transparent;
 }
 

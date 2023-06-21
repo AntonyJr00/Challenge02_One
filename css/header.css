@@ -55,8 +55,6 @@ body {
   text-decoration: underline;
 }
 
-/* home */
-
 .home {
   display: flex;
   flex-direction: column-reverse;
@@ -176,7 +174,6 @@ body {
     display: flex;
   }
 
-  /* home */
   .home {
     justify-content: space-between;
     gap: 2rem;
