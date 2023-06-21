@@ -61,7 +61,7 @@
   gap: 1rem;
 }
 
-.experiencia_profesional__button {
+.experiencia_profesional__button--repo {
   min-width: 96px;
   font-family: var(--raleway);
   font-weight: 600;
@@ -71,11 +71,32 @@
   padding: 0.7rem 1rem;
   border: 2px solid var(--color-azul-normal);
   cursor: pointer;
+  transition: all 0.4s;
 }
 
 .experiencia_profesional__button--azul {
+  min-width: 96px;
   color: var(--color-blanco);
   background-color: var(--color-azul-normal);
+  font-family: var(--raleway);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.7rem 1rem;
+  border: 2px solid var(--color-azul-normal);
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.experiencia_profesional__button--repo:hover {
+  color: var(--color-blanco);
+  background-color: var(--color-azul-normal);
+  transform: scale(1.04);
+}
+
+.experiencia_profesional__button--azul:hover {
+  color: var(--color-azul-normal);
+  background-color: transparent;
+  transform: scale(1.04);
 }
 
 @media screen and (min-width: 768px) {

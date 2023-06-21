@@ -97,14 +97,16 @@ body {
   padding: 0;
 }
 
-.home__link p {
+.home__link p a {
+  color: var(--color-black);
+  text-decoration: none;
   font-family: var(--raleway);
   font-weight: 600;
   font-size: 14px;
   margin: 0;
 }
 
-.home__link p:hover {
+.home__link p:hover a {
   cursor: pointer;
   text-decoration: underline;
   color: var(--color-azul-normal);
