@@ -361,7 +361,7 @@
           Complete el siguiente formulario y me pondre en contacto con usted lo
           antes posible.
         </p>
-        <div class="contacto__form">
+        <form class="contacto__form" action="#">
           <div class="contacto__inputs">
             <label for="name">Nombre</label>
             <input id="name" type="text" />
@@ -383,10 +383,12 @@
             placeholder="Mensaje"
           ></textarea>
 
-          <div class="">
-            <button class="contacto__form__button">Enviar mensaje</button>
+          <div>
+            <button type="submit" class="contacto__form__button">
+              Enviar mensaje
+            </button>
           </div>
-        </div>
+        </form>
       </div>
     </section>
 

@@ -70,6 +70,7 @@
   color: var(--color-azul-normal);
   padding: 0.7rem 1rem;
   border: 2px solid var(--color-azul-normal);
+  cursor: pointer;
 }
 
 .experiencia_profesional__button--azul {

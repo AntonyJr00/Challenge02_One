@@ -61,6 +61,7 @@
   font-size: 0.8rem;
   font-weight: 400;
   color: #a2a2a2;
+  background-color: transparent;
 }
 
 .contacto__form__mensaje {
@@ -79,6 +80,7 @@
   font-family: var(--raleway);
   font-size: 0.9rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1024px) {

@@ -37,6 +37,12 @@
   align-items: flex-start;
   gap: 8px;
   padding: 0 0 16px 16px;
+  transition: all 0.4s;
+}
+
+.skills__card:hover {
+  box-shadow: 5px 5px 12px #a29999f9;
+  transform: scale(1.1);
 }
 
 .skills__card__title {
