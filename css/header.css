@@ -9,7 +9,6 @@ body {
 }
 
 .nav {
-  max-width: 1136px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -153,6 +152,18 @@ body {
 @media screen and (min-width: 1024px) {
   .header {
     padding: 0 4rem;
+  }
+
+  .nav {
+    margin-bottom: 2rem;
+  }
+
+  .nav__nombre {
+    font-size: 1.4rem;
+  }
+
+  .nav__link {
+    font-size: 1rem;
   }
 
   .nav__menu {
