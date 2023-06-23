@@ -393,19 +393,20 @@
             click aqui.</a
           >
         </p>
-        <form class="contacto__form" action="#">
+        <form class="contacto__form" action="#" id="formulario">
           <div class="contacto__inputs">
             <label for="name">Nombre</label>
-            <input id="name" type="text" />
+            <input id="name" type="text" required />
           </div>
           <div class="contacto__inputs">
             <label for="email">E - mail</label>
-            <input id="email" type="email" />
+            <input id="email" type="email" required />
           </div>
           <div class="contacto__inputs">
-            <input id="asunto" type="text" placeholder="Asunto" />
+            <input required id="asunto" type="text" placeholder="Asunto" />
           </div>
           <textarea
+            required
             class="contacto__form__mensaje"
             name="mensaje"
             id="mensaje"
@@ -413,7 +414,11 @@
             placeholder="Mensaje"
           ></textarea>
           <div>
-            <button type="submit" class="contacto__form__button">
+            <button
+              type="submit"
+              class="contacto__form__button"
+              id="button-form"
+            >
               Enviar mensaje
             </button>
           </div>
@@ -423,6 +428,7 @@
     <footer class="footer">
       <p class="footer__content">Desarrollado por Antony de Limas-Peru 2023</p>
     </footer>
-    <script src="js/main.js"></script>
+    <script src="js/theme-mode.js"></script>
+    <script src="js/formulario.js" type="module"></script>
   </body>
 </html>
