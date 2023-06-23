@@ -21,6 +21,7 @@
 .sobre__text {
   line-height: 19px;
   font-size: 14px;
+  color: var(--color-black);
   font-family: var(--raleway);
   font-weight: 400;
 }

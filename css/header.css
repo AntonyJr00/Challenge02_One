@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 16px;
+  padding-top: 0;
 }
 
 .nav {
@@ -23,6 +24,7 @@ body {
 
 .nav__nombre {
   font-size: 1rem;
+  color: var(--color-black);
   font-family: var(--raleway);
   font-weight: 700;
 }
@@ -71,12 +73,14 @@ body {
 }
 
 .home__title {
+  color: var(--color-black);
   font-family: var(--raleway);
   font-size: 1.4rem;
   font-weight: 700;
 }
 
 .home__text {
+  color: var(--color-black);
   font-family: var(--raleway);
   font-size: 14px;
   font-weight: 400;

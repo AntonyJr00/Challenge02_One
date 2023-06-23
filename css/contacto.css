@@ -25,6 +25,7 @@
 
 .contacto__descripcion {
   font-size: 0.9rem;
+  color: var(--color-black);
   font-family: var(--raleway);
 }
 
@@ -61,6 +62,7 @@
   background-color: transparent;
   flex: 1;
   padding-left: 5px;
+  color: var(--color-black);
   font-size: 1rem;
   font-family: var(--raleway);
   font-weight: 400;
@@ -79,6 +81,7 @@
 
 .contacto__form__mensaje {
   border: none;
+  color: var(--color-black);
   background-color: var(--color-blanco);
   padding: 10px;
   font-family: var(--raleway);

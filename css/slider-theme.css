@@ -1,0 +1,27 @@
+.switch {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.switch__theme {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  background-color: var(--slider-theme);
+  border: 2px solid var(--slider-icon);
+  border-radius: 50%;
+}
+
+.switch__input {
+  display: none;
+}
+
+#icon-slider {
+  font-size: 1.6rem;
+  transition: 0.4s;
+  cursor: pointer;
+  color: var(--slider-icon);
+}

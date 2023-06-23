@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/9589b620b5.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/reset/normalize.css" />
     <link rel="stylesheet" href="css/reset/bases.css" />
     <link rel="stylesheet" href="./css/reset/reset.css" />
@@ -20,13 +24,14 @@
     <link rel="stylesheet" href="./css/experiencia-progesional.css" />
     <link rel="stylesheet" href="./css/contacto.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="css/slider-theme.css" />
     <title>Portafolio</title>
   </head>
   <body>
     <header class="header">
       <nav class="nav">
         <div class="nav__logo">
-          <img src="./assets/img/logo.svg" alt="logo" />
+          <img id="logo" src="./assets/img/logo-etc/logo.svg" alt="logo" />
           <h1 class="nav__nombre">Antony</h1>
         </div>
         <ul class="nav__menu">
@@ -99,6 +104,14 @@
         </div>
       </section>
     </header>
+
+    <div class="switch">
+      <label for="slider" class="switch__theme">
+        <input class="switch__input" type="checkbox" id="slider" />
+        <span id="icon-slider" class="fa-solid fa-sun"></span>
+      </label>
+    </div>
+
     <section class="sobre" id="sobre">
       <div class="sobre__content">
         <h2 class="sobre__title">Sobre mi</h2>
@@ -116,7 +129,7 @@
           metus vitae, aliquet metus.
         </p>
         <div class="sobre__firma">
-          <img src="assets/img/firma.svg" alt="firma" />
+          <img src="assets/img/logo-etc/firma.svg" alt="firma" />
         </div>
       </div>
     </section>
@@ -209,7 +222,11 @@
       <div class="formacion_academica__cards">
         <div class="formacion_academica__cards__card">
           <div class="formacion_academica__img">
-            <img src="assets/img/formacion-academica/certus.svg" alt="" />
+            <img
+              id="certus-img"
+              src="assets/img/formacion-academica/certus.svg"
+              alt="certus"
+            />
           </div>
           <div class="formacion_academica__cards__content">
             <h5 class="formacion_academica__cards__title">
@@ -273,7 +290,7 @@
           </div>
           <div class="experiencia_profesional__content">
             <h4 class="experiencia_profesional__card__title">
-              Portafolio creado con Html y CSS
+              Portafolio creado con Html, CSS y Javascript
             </h4>
             <p class="experiencia_profesional__card__subtitle">
               Challenge Oracle
@@ -406,5 +423,6 @@
     <footer class="footer">
       <p class="footer__content">Desarrollado por Antony de Limas-Peru 2023</p>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
